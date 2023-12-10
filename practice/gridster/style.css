@@ -20,6 +20,35 @@ body {
 }
 
 .blog-post {
-  color: #444;
-  border: 2px solid #626262;
+  color: #2f2f2f;
+  border: 1px solid #e2e2e2;
+}
+
+.footer-link:link {
+  color: #3498db;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+.footer-link:hover {
+  color: #2f2f2f;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+.footer-link:visited {
+  color: #3498db;
+}
+
+.bottom-nav-link:link {
+  text-decoration: none;
+  font-family: sans-serif;
+  color: #2f2f2f;
+}
+
+.bottom-nav-link:focus {
+  text-decoration: none;
+  font-family: sans-serif;
+  color: white;
+  background-color: #3498db;
 }
